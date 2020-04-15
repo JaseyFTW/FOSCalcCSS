@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header id="mainHeader">
+    <div class="container">
+      <h1>FOS Calculator</h1>
+    </div>
+  </header>
+  <div id="settingBody">
+    <div class="container">
+    
+      <h2>Settings</h2>
+      <ul>
+        <li>
+          <div class="timeoffset-setting">
+          <label for="offset">Offset Time</label>
+            <!-- <input type="time" id="offset" value="17:01" onchange="Calculate();"> -->
+            <input type="time" id="offset" value="17:01">
+            <!-- <label for="inputId">file dialog</label> -->
+            <input id="inputId" type="file" style="position: fixed; top: -100em">
+          </div>
+        </li>
+        <li>
+          <div class='delim setting'>
+            <label>Demliminator</label><br>
+            <input type="radio" id="comma" name="delim" value="comma">
+            <label for="comma">Comma ,</label><br>
+            <input type="radio" id="tab" name="delim" value="tab" checked="true">
+            <label for="tab">Tab \t</label>
+          </div>
+        </li>
+        <li>
+          <div class='endline setting'>
+            <label>Line End</label><br>
+            <input type="radio" id="newline" name="newline" value="newline"  checked="true">
+            <label for="newline">\n</label><br>
+          </div>
+        </li>
+        <li>
+          <div class='datedisplay setting'>
+            <label>Receipt/Day 1</label><br>
+            <input type="radio" id="receipt" name="datechoice" value="receipt">
+            <label for='receipt'>Receipt Date</label><br>
+            <input type="radio" id="dayone" name="datechoice" value="dayone"  checked="true">
+            <label for="dayone">Day 1</label>
+          </div>
+        </li>
+        <li>
+          <div class='outputtype setting'>
+            <label>Text/Table</label><br>
+            <input type="radio" id="text" name="outputchoice" value="text">
+            <label for='text'>Text</label><br>
+            <input type="radio" id="table" name="outputchoice" value="table"  checked="true">
+            <label for="table">Table</label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <nav id="mainNav">
+      <div class="container">
+          <ul></ul>
+          <li><a href='#'>Chad</a></li>
+          <li><a href='#'>is</a></li>
+          <li><a href='#'>gay.</a></li>
+          </ul>
+      </div>
+    </nav>
+    <div id="jumbo">
+      <h1>not sure what this is</h1>
+    </div>
+
+    <div class="container">
+      <aside id="sidebar">
+        <p>this is mah sidebar</p>
+      </aside>
+      <section id="main">
+        <h2>Not sure what this bit is either</h2>
+        <p>choooooo choooooooo</p>
+      </section>
+      <div class="clearFix"></div>
+      <div id="pExample">
+
+        <span>Span 1</span>
+        <span>Span 2</span>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="fixedElement">wtf is this doing here</div>
+  
+  <textarea style="resize: none;" id=myText rows="2" cols="50"></textarea>
+  <input type="button" id='myBtn' value="Press Me!">
+
+  
+  </div> 
+  <footer id="mainFooter">
+    <p>Chad is gay! &copy;</p>
+  </footer>
+  <script src="https://unpkg.com/dayjs@1.8.23/dayjs.min.js"></script>
+  <script src="https://unpkg.com/dayjs@1.8.23/plugin/utc.js"></script>
+  <script src="https://unpkg.com/dayjs@1.8.23/plugin/customParseFormat.js"></script>
+  <script src="https://unpkg.com/dayjs@1.8.23/plugin/relativeTime.js"></script>
+  <!-- <script type = "javascript" src="data/bankHolidays.json"></script> -->
+  <!-- <script src="js/imports.js"></script>  -->
+  <script src="js/main.js"></script> 
+  <!-- <script src="js/videoguy.js"></script>  -->
+</body>
+</html>
